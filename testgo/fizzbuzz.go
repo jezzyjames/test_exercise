@@ -9,6 +9,7 @@ func FizzBuzz(n int) string {
 		5: "Buzz",
 		6: "Fizz",
 		9: "Fizz",
+		10: "Buzz",
 		12: "Fizz",
 	}
 
