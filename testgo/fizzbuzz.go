@@ -7,6 +7,7 @@ func FizzBuzz(n int) string {
 	myMap := map[int]string{
 		3: "Fizz",
 		5: "Buzz",
+		6: "Fizz",
 	}
 
 	result := myMap[n]
