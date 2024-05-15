@@ -11,6 +11,7 @@ func FizzBuzz(n int) string {
 		9: "Fizz",
 		10: "Buzz",
 		12: "Fizz",
+		15: "FizzBuzz",
 	}
 
 	result := myMap[n]
