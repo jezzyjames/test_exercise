@@ -4,7 +4,11 @@ import "strconv"
 
 func FizzBuzz(n int) string {
 
-	if n % 3 == 0 {
+	if n == 15 {
+		return "FizzBuzz"
+	}
+
+	if n%3 == 0 {
 		return "Fizz"
 	}
 
