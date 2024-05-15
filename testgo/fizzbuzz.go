@@ -3,9 +3,15 @@ package main
 import "strconv"
 
 func FizzBuzz(n int) string {
-	if n%3 == 0 {
-		return "Fizz"
+
+	myMap := map[int]string{
+		3: "Fizz",
+		5: "Buzz",
 	}
 
+	result := myMap[n]
+	if result != "" {
+		return result
+	}
 	return strconv.Itoa(n)
 }
