@@ -1,22 +1,32 @@
 package main
 
-import "strconv"
+import (
+	"strconv"
+	"strings"
+)
 
 func FizzBuzz(n int) string {
 
-	myMap := map[int]string{
-		3: "Fizz",
-		5: "Buzz",
-		6: "Fizz",
-		9: "Fizz",
-		10: "Buzz",
-		12: "Fizz",
+	result := []string{}
+
+	fizzBuzzMap := map[int]string{
+		3:  "Fizz",
+		5:  "Buzz",
 		15: "FizzBuzz",
 	}
 
-	result := myMap[n]
-	if result != "" {
-		return result
+	for i := n; i <= n; i++ {
+		value := strconv.Itoa(i)
+		for key := range fizzBuzzMap {
+			if i%key == 0 {
+				value = fizzBuzzMap[key]
+				continue
+
+			}
+		}
+
+		result = append(result, value)
 	}
-	return strconv.Itoa(n)
+
+	return strings.Join(result[:], ",")
 }
