@@ -1,6 +1,8 @@
 package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestFizzBuzzShouldReturn1WhenInput1(t *testing.T) {
 	input := 1
@@ -153,6 +155,16 @@ func TestFizzBuzzShouldReturn14WhenInput14(t *testing.T) {
 
 func TestFizzBuzzShouldReturnFizzBuzzWhenInput15(t *testing.T) {
 	input := 15
+	got := FizzBuzz(input)
+
+	want := "FizzBuzz"
+	if got != want {
+		t.Errorf("got %q but want %q", got, want)
+	}
+}
+
+func TestFizzBuzzShouldReturnFizzBuzzWhenInput30(t *testing.T) {
+	input := 30
 	got := FizzBuzz(input)
 
 	want := "FizzBuzz"

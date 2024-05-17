@@ -1,32 +1,30 @@
 package main
 
 import (
+	"sort"
 	"strconv"
-	"strings"
 )
 
 func FizzBuzz(n int) string {
-
-	result := []string{}
-
 	fizzBuzzMap := map[int]string{
 		3:  "Fizz",
 		5:  "Buzz",
 		15: "FizzBuzz",
 	}
 
-	for i := n; i <= n; i++ {
-		value := strconv.Itoa(i)
-		for key := range fizzBuzzMap {
-			if i%key == 0 {
-				value = fizzBuzzMap[key]
-				continue
+	keys := []int{}
+	for k := range fizzBuzzMap {
+		keys = append(keys, k)
+	}
+	sort.Ints(keys)
 
-			}
+	value := strconv.Itoa(n)
+
+	for _, key := range keys {
+		if n%key == 0 {
+			value = fizzBuzzMap[key]
 		}
-
-		result = append(result, value)
 	}
 
-	return strings.Join(result[:], ",")
+	return value
 }
