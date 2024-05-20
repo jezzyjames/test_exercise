@@ -1,8 +1,12 @@
 package main
 
 func FizzBuzz(n int) string {
-	if n == 2 {
-		return "2"
+
+	fizzBuzzMap := map[int]string{
+		1: "1",
+		2: "2",
+		3: "Fizz",
 	}
-	return "1"
+
+	return fizzBuzzMap[n]
 }
