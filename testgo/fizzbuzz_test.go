@@ -49,11 +49,11 @@ func TestFizzBuzzShouldReturn4WhenInput4(t *testing.T) {
 }
 
 func TestFizzBuzzShouldReturnBuzzWhenInput5(t *testing.T) {
-	input := 4
+	input := 5
 
 	got := FizzBuzz(input)
 
-	want := "4"
+	want := "Buzz"
 	if got != want {
 		t.Errorf("got %q but want %q", got, want)
 	}

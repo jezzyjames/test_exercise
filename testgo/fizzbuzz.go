@@ -12,6 +12,7 @@ func FizzBuzz(n int) string {
 		2: "2",
 		3: "Fizz",
 		4: "4",
+		5: "Buzz",
 	}
 
 	keys := []int{}
