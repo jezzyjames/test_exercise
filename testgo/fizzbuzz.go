@@ -8,8 +8,9 @@ import (
 func FizzBuzz(n int) string {
 
 	fizzBuzzMap := map[int]string{
-		3: "Fizz",
-		5: "Buzz",
+		3:  "Fizz",
+		5:  "Buzz",
+		15: "FizzBuzz",
 	}
 
 	keys := []int{}
