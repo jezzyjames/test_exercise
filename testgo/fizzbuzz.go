@@ -18,11 +18,12 @@ func FizzBuzz(n int) string {
 	}
 	sort.Ints(keys)
 
+	result := strconv.Itoa(n)
 	for _, k := range keys {
 		if n%k == 0 {
-			return fizzBuzzMap[n]
+			result = fizzBuzzMap[k]
 		}
 	}
 
-	return strconv.Itoa(n)
+	return result
 }
