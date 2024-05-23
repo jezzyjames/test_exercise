@@ -1,6 +1,8 @@
 package main
 
-import "strconv"
+import (
+	"strconv"
+)
 
 // // 1 IF
 // func FizzBuzz(n int) string {
@@ -29,5 +31,34 @@ import "strconv"
 
 // No IF
 func FizzBuzz(n int) string {
-	return strconv.Itoa(n)
+
+	fbMap := map[int]map[int]string{
+		0: {
+			0: "f",
+		},
+		1: {
+			0: "b",
+		},
+		2: {
+			0: "z",
+		},
+	}
+
+	keys := []int{3, 5, 15}
+
+	fb := []byte("")
+	for i, k := range keys {
+		v := n % k
+
+		r := fbMap[i][v]
+
+		fb = append(fb, r...)
+	}
+
+	fbResult := map[string]string{
+		"":  strconv.Itoa(n),
+		"f": "Fizz",
+	}
+
+	return fbResult[string(fb)]
 }
