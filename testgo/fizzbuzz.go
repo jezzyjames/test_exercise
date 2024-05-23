@@ -1,5 +1,7 @@
 package main
 
+import "strconv"
+
 // // 1 IF
 // func FizzBuzz(n int) string {
 
@@ -27,5 +29,5 @@ package main
 
 // No IF
 func FizzBuzz(n int) string {
-	return "1"
+	return strconv.Itoa(n)
 }
