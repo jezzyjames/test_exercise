@@ -15,16 +15,16 @@ func TestFizzBuzzShouldReturn1WhenInput1(t *testing.T) {
 	}
 }
 
-// func TestFizzBuzzShouldReturn2WhenInput2(t *testing.T) {
-// 	input := 2
+func TestFizzBuzzShouldReturn2WhenInput2(t *testing.T) {
+	input := 2
 
-// 	got := FizzBuzz(input)
+	got := FizzBuzz(input)
 
-// 	want := "2"
-// 	if got != want {
-// 		t.Errorf("got %q but want %q", got, want)
-// 	}
-// }
+	want := "2"
+	if got != want {
+		t.Errorf("got %q but want %q", got, want)
+	}
+}
 
 // func TestFizzBuzzShouldReturnFizzWhenInput3(t *testing.T) {
 // 	input := 3
