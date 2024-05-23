@@ -180,16 +180,16 @@ func TestFizzBuzzShouldReturnFizzBuzzWhenInput30(t *testing.T) {
 	}
 }
 
-// func TestFizzBuzzShouldReturnBuzzWhenInput25(t *testing.T) {
-// 	input := 25
+func TestFizzBuzzShouldReturnBuzzWhenInput25(t *testing.T) {
+	input := 25
 
-// 	got := FizzBuzz(input)
+	got := FizzBuzz(input)
 
-// 	want := "Buzz"
-// 	if got != want {
-// 		t.Errorf("got %q but want %q", got, want)
-// 	}
-// }
+	want := "Buzz"
+	if got != want {
+		t.Errorf("got %q but want %q", got, want)
+	}
+}
 
 // func TestFizzBuzzShouldReturnFizzWhenInput24(t *testing.T) {
 // 	input := 24
