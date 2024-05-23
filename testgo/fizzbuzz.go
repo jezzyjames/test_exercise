@@ -59,6 +59,7 @@ func FizzBuzz(n int) string {
 		"":  strconv.Itoa(n),
 		"f": "Fizz",
 		"b": "Buzz",
+		"fbz": "FizzBuzz",
 	}
 
 	return fbResult[string(fb)]
