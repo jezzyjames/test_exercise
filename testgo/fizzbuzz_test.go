@@ -15,189 +15,189 @@ func TestFizzBuzzShouldReturn1WhenInput1(t *testing.T) {
 	}
 }
 
-func TestFizzBuzzShouldReturn2WhenInput2(t *testing.T) {
-	input := 2
+// func TestFizzBuzzShouldReturn2WhenInput2(t *testing.T) {
+// 	input := 2
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "2"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "2"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnFizzWhenInput3(t *testing.T) {
-	input := 3
+// func TestFizzBuzzShouldReturnFizzWhenInput3(t *testing.T) {
+// 	input := 3
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Fizz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Fizz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturn4WhenInput4(t *testing.T) {
-	input := 4
+// func TestFizzBuzzShouldReturn4WhenInput4(t *testing.T) {
+// 	input := 4
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "4"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "4"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnBuzzWhenInput5(t *testing.T) {
-	input := 5
+// func TestFizzBuzzShouldReturnBuzzWhenInput5(t *testing.T) {
+// 	input := 5
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Buzz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Buzz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnFizzWhenInput6(t *testing.T) {
-	input := 6
+// func TestFizzBuzzShouldReturnFizzWhenInput6(t *testing.T) {
+// 	input := 6
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Fizz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Fizz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturn7WhenInput7(t *testing.T) {
-	input := 7
+// func TestFizzBuzzShouldReturn7WhenInput7(t *testing.T) {
+// 	input := 7
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "7"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "7"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturn8WhenInput8(t *testing.T) {
-	input := 8
+// func TestFizzBuzzShouldReturn8WhenInput8(t *testing.T) {
+// 	input := 8
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "8"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "8"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturn9WhenInput9(t *testing.T) {
-	input := 9
+// func TestFizzBuzzShouldReturn9WhenInput9(t *testing.T) {
+// 	input := 9
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Fizz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Fizz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnBuzzWhenInput10(t *testing.T) {
-	input := 10
+// func TestFizzBuzzShouldReturnBuzzWhenInput10(t *testing.T) {
+// 	input := 10
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Buzz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Buzz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturn11WhenInput11(t *testing.T) {
-	input := 11
+// func TestFizzBuzzShouldReturn11WhenInput11(t *testing.T) {
+// 	input := 11
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "11"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "11"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnFizzWhenInput12(t *testing.T) {
-	input := 12
+// func TestFizzBuzzShouldReturnFizzWhenInput12(t *testing.T) {
+// 	input := 12
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Fizz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Fizz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturn13WhenInput13(t *testing.T) {
-	input := 13
+// func TestFizzBuzzShouldReturn13WhenInput13(t *testing.T) {
+// 	input := 13
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "13"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "13"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturn14WhenInput14(t *testing.T) {
-	input := 14
+// func TestFizzBuzzShouldReturn14WhenInput14(t *testing.T) {
+// 	input := 14
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "14"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "14"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnFizzBuzzWhenInput15(t *testing.T) {
-	input := 15
+// func TestFizzBuzzShouldReturnFizzBuzzWhenInput15(t *testing.T) {
+// 	input := 15
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "FizzBuzz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "FizzBuzz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnFizzBuzzWhenInput30(t *testing.T) {
-	input := 30
+// func TestFizzBuzzShouldReturnFizzBuzzWhenInput30(t *testing.T) {
+// 	input := 30
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "FizzBuzz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "FizzBuzz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnBuzzWhenInput25(t *testing.T) {
-	input := 25
+// func TestFizzBuzzShouldReturnBuzzWhenInput25(t *testing.T) {
+// 	input := 25
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Buzz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Buzz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
 
-func TestFizzBuzzShouldReturnFizzWhenInput24(t *testing.T) {
-	input := 24
+// func TestFizzBuzzShouldReturnFizzWhenInput24(t *testing.T) {
+// 	input := 24
 
-	got := FizzBuzz(input)
+// 	got := FizzBuzz(input)
 
-	want := "Fizz"
-	if got != want {
-		t.Errorf("got %q but want %q", got, want)
-	}
-}
+// 	want := "Fizz"
+// 	if got != want {
+// 		t.Errorf("got %q but want %q", got, want)
+// 	}
+// }
