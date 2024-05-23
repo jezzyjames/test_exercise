@@ -1,4 +1,4 @@
-package main
+package level2
 
 import (
 	"testing"
