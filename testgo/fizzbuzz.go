@@ -34,17 +34,14 @@ func FizzBuzz(n int) string {
 
 	fbMap := map[int]map[int]string{
 		0: {
-			0: "f",
+			0: "Fizz",
 		},
 		1: {
-			0: "b",
-		},
-		2: {
-			0: "z",
+			0: "Buzz",
 		},
 	}
 
-	keys := []int{3, 5, 15}
+	keys := []int{3, 5}
 
 	fb := []byte("")
 	for i, k := range keys {
@@ -56,10 +53,10 @@ func FizzBuzz(n int) string {
 	}
 
 	fbResult := map[string]string{
-		"":  strconv.Itoa(n),
-		"f": "Fizz",
-		"b": "Buzz",
-		"fbz": "FizzBuzz",
+		"":         strconv.Itoa(n),
+		"Fizz":     "Fizz",
+		"Buzz":     "Buzz",
+		"FizzBuzz": "FizzBuzz",
 	}
 
 	return fbResult[string(fb)]
